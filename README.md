@@ -20,23 +20,20 @@ How to Run the Code
 Clone the repository:
 
 ```bash
-Copy
-Edit
+
 git clone https://github.com/your-repo/electoral-fraud-monitoring-system.git
 cd electoral-fraud-monitoring-system 
 ```
 
 Install dependencies (if any):
 ```bash
-Copy 
-Edit
+
 npm install 
 ```
 
 Run the application:
 ```bash
-Copy
-Edit
+
 node main.js
 ```
  
