@@ -1,12 +1,15 @@
 const User = require('./User');
 
 class Admin extends User {
+  static reportCount = 0; // Static property
+
   generateReport() {
-    console.log('Generating report...');
+    Admin.reportCount += 1;
+    console.log(`Generating report... Total reports generated: ${Admin.reportCount}`);
   }
 
   respondToIncident() {
-    console.log('Responding to incident...');
+    console.log('Responding to incident now...');
   }
 }
 

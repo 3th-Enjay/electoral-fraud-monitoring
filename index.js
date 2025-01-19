@@ -4,24 +4,20 @@ const DataAnalysis = require('./DataAnalysis');
 const BiometricVerification = require('./BiometricVerification');
 const ReportSystem = require('./ReportSystem');
 
-// Create instances and test the system
-const user = new User (1, 'Nelson', "labour party")
-user.authenticate();
-user.viewDashboard()
+const user1 = new User(1, 'Enjay', 'Voter');
+const admin = new Admin(2, 'Nelson', 'Administrator');
 
-
-const admin = new Admin(1, 'Enjay', 'Administrator');
-admin.authenticate();
+user1.authenticate();
 admin.viewDashboard();
+
+Admin.getUserCount();
 admin.generateReport();
 
-const voterData = new DataAnalysis(5000, 3000);
-voterData.analyzeVotePatterns();
-voterData.detectFraudPatterns();
-
 const biometric = new BiometricVerification();
-biometric.verifyIdentity({ fingerprint: 'sampleData' }, { face: 'sampleData' });
+biometric.verifyIdentity({ fingerprint: 'sample' }, { face: 'sample' });
 
-const reportSystem = new ReportSystem();
-reportSystem.generateIncidentReport('Suspicious activity detected in polling unit 5.');
-reportSystem.sendAlerts('Anomaly detected in voter turnout.');
+BiometricVerification.preventDuplicateVote();
+
+DataAnalysis.detectFraudPatterns();
+
+ReportSystem.sendAlerts('Suspicious activity detected.');

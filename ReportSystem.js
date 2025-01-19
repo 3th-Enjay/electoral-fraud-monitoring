@@ -1,4 +1,6 @@
 class ReportSystem {
+    static alertCount = 0; // Static property
+  
     constructor() {
       this.alertsLog = [];
       this.incidentReports = [];
@@ -9,9 +11,9 @@ class ReportSystem {
       console.log('Incident report generated:', report);
     }
   
-    sendAlerts(message) {
-      this.alertsLog.push(message);
-      console.log('Alert sent:', message);
+    static sendAlerts(message) {
+      ReportSystem.alertCount += 1;
+      console.log(`Alert sent: ${message}. Total alerts: ${ReportSystem.alertCount}`);
     }
   }
   
