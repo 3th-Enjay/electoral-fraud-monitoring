@@ -14,6 +14,9 @@ Elections worldwide often suffer from various types of fraud and irregularities,
 The UML class diagram illustrates the system's design, including relationships between classes such as User, Admin, DataAnalysis, BiometricVerification, and ReportSystem.
 
 ### Link to UmL Diagram
+
+![Screenshot from 2025-01-19 07-02-41](https://github.com/user-attachments/assets/ddfb1e81-4126-4715-b0be-32a390cc5a9b)
+
 [UML DIAGRAM](https://drive.google.com/file/d/1tq72qPS7rpFvUSra9cqNyc-_FcY5CTcf/view?usp=sharing)
 
 How to Run the Code
@@ -38,5 +41,7 @@ node main.js
 ```
  
  ## Screenshots from terminal
+ ![Screenshot from 2025-01-19 19-41-10](https://github.com/user-attachments/assets/e7b8bfe3-457c-4421-a3ea-20e2901be8a8)
+
  [Terminal](./Screenshot%20from%202025-01-19%2019-41-10.png)
 
