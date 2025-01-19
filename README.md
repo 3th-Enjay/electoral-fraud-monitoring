@@ -45,3 +45,4 @@ node main.js
 
  [Terminal](./Screenshot%20from%202025-01-19%2019-41-10.png)
 
+![Screenshot from 2025-01-19 20-27-54](https://github.com/user-attachments/assets/8461d410-c403-4fdb-abd7-480aeb3389fb)
