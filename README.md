@@ -12,7 +12,28 @@ Elections worldwide often suffer from various types of fraud and irregularities,
 
 # Class Diagram
 The UML class diagram illustrates the system's design, including relationships between classes such as User, Admin, DataAnalysis, BiometricVerification, and ReportSystem.
-//image
+
+[uml](Screenshot%20from%202025-01-19%2007-02-41.png/)
 [UML DIAGRAM](https://drive.google.com/file/d/1tq72qPS7rpFvUSra9cqNyc-_FcY5CTcf/view?usp=sharing)
 
+How to Run the Code
+Clone the repository:
+``bash
+Copy
+Edit
+git clone https://github.com/your-repo/electoral-fraud-monitoring-system.git
+cd electoral-fraud-monitoring-system ``
+Install dependencies (if any):
+``bash
+Copy
+Edit
+npm install ``
+Run the application:
+``bash
+Copy
+Edit
+node main.js
+ 
+ ## Screenshots from terminal
+ [Terminal](./Screenshot%20from%202025-01-19%2019-41-10.png)
 
