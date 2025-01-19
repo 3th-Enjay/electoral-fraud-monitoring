@@ -18,21 +18,27 @@ The UML class diagram illustrates the system's design, including relationships b
 
 How to Run the Code
 Clone the repository:
-``bash
+
+```bash
 Copy
 Edit
 git clone https://github.com/your-repo/electoral-fraud-monitoring-system.git
-cd electoral-fraud-monitoring-system ``
+cd electoral-fraud-monitoring-system 
+```
+
 Install dependencies (if any):
-``bash
-Copy
+```bash
+Copy 
 Edit
-npm install ``
+npm install 
+```
+
 Run the application:
-``bash
+```bash
 Copy
 Edit
 node main.js
+```
  
  ## Screenshots from terminal
  [Terminal](./Screenshot%20from%202025-01-19%2019-41-10.png)
