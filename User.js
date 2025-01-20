@@ -1,5 +1,5 @@
 class User {
-  static userCount = 0; // Static property shared among all instances
+  static userCount = 0; // Static property 
 
   constructor(userID, name, role) {
     this.userID = userID;
